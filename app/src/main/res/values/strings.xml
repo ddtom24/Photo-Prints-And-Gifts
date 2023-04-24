@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Photo Prints And Gifts</string>
+    <string name="logo_home">logo_home</string>
+    <string name="string_logo_home">logo_home</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="logo_admin_login">logo_admin_login</string>
+    <string name="prompt_email">Enter email</string>
+    <string name="prompt_password">Enter password</string>
+    <string name="check_password">Verify password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">Password:</string>
+    <string name="verify_password">Verify Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="surname">Surname</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="create_account">Create Account</string>
+    <string name="i_agree_to_terms_amp_conditions"><![CDATA[I agree to Terms & Conditions]]></string>
+    <string name="read_terms_conditions"><![CDATA[Click to read Terms & Conditions]]></string>
+    <string name="name">Name</string>
+    <string name="logo_register_user">Logo Register User</string>
+    <string name="ScrollView">scroll_view</string>
+    <string name="log_in">Log In</string>
+    <string name="upload">Upload</string>
+    <string name="theme_name">Theme Name</string>
+    <string name="theme_image">Theme Image</string>
+    <string name="upload_to_project">upload photos</string>
+    <string name="edit_photo">edit photo</string>
+    <string name="add_frame">Add frame</string>
+    <string name="save_changes">Save changes</string>
+    <string name="add_stickers">Add stickers</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back_account">Welcome back!</string>
+    <string name="go_to_account">go to account</string>
+    <string name="sign_out">Sign out</string>
+
+    <string-array name="frames_colours_array">
+        <item> white </item>
+        <item> black </item>
+        <item> red </item>
+        <item> blue </item>
+        <item> green </item>
+        <item> yellow </item>
+        <item> orange </item>
+        <item> purple </item>
+        <item> pink </item>
+        <item> teal </item>
+        <item> lime </item>
+    </string-array>
+
+    <string-array name="frames_themes_array">
+        <item> Paris </item>
+        <item> Baby Boy </item>
+        <item> Baby Girl </item>
+        <item> Flowers </item>
+        <item> Space </item>
+        <item> Summer </item>
+        <item> Christmas </item>
+        <item> Birthday Boy </item>
+        <item> Birthday Girl </item>
+        <item> Smurfs </item>
+        <item> Frozen </item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "422707685134",
+    "firebase_url": "https://photo-prints-and-gifts-424d4-default-rtdb.firebaseio.com",
+    "project_id": "photo-prints-and-gifts-424d4",
+    "storage_bucket": "photo-prints-and-gifts-424d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422707685134:android:5ffef76344b7f5a91d595f",
+        "android_client_info": {
+          "package_name": "com.example.photoprintsandgifts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422707685134-ikstmnic7kn6q8q1tmk94njnqdak5o27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.photoprintsandgifts",
+            "certificate_hash": "5ee51e0e62196e8dfcdedc91f2c9c923e0ac9a32"
+          }
+        },
+        {
+          "client_id": "422707685134-229klhoj5oelf3r9r6jsat5v33iacml8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGo4s2WjPvIBo-bfwhS6ymQCFKdS8W0EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422707685134-229klhoj5oelf3r9r6jsat5v33iacml8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StickersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_stickers_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <Button
+            android:id="@+id/btn_stickers_fragment_add_stickers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/add_stickers"
+            android:textColor="#5E35B1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

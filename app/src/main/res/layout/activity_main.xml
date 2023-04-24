@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/coloured_lines"
+   >
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:id="@+id/bottom_navigation_main"
+        android:layout_width="406dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu"/>
+
+    <ImageView
+        android:id="@+id/iv_logo_home"
+        android:layout_width="98dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="126dp"
+        android:contentDescription="@string/string_logo_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="ImageContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="527dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo_home"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="@drawable/coloured_lines_light"
+        android:fadingEdge="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee_italic"
+                android:text="Paper Frames"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_frames"
+                android:layout_width="270dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/paper_frames" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee_italic"
+                android:text="Party Crafts"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/iv_crafts"
+                android:layout_width="270dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/party_crafts" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee_italic"
+                android:text="Photo Frames Kits"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_kits"
+                android:layout_width="270dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/kits2" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abeezee_italic"
+                android:text="Gifts"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_gifts"
+                android:layout_width="270dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/gifts" />
+
+            <Button
+                android:id="@+id/btn_home_account"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/go_to_account"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

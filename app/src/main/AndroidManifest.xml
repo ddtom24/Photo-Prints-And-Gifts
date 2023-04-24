@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.photoprintsandgifts">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhotoPrintsAndGifts">
+        <activity
+            android:name=".MyPaymentMethods"
+            android:exported="false" />
+        <activity
+            android:name=".MyAddresses"
+            android:exported="false" />
+        <activity
+            android:name=".MyOrders"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".FaqActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Editing"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPhotosRecycler"
+            android:exported="false" />
+        <activity
+
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".ThemeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".StickersUpload"
+            android:exported="false" />
+        <activity
+            android:name=".ThemeUpload"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountLayout"
+            android:exported="false" />
+        <activity
+            android:name=".CartLayout"
+            android:exported="false" />
+        <activity
+            android:name=".DraftsLayout"
+            android:exported="false" />
+        <activity
+            android:name=".EditPhoto"
+            android:exported="false" />
+        <activity
+            android:name=".KitsLayout"
+            android:exported="false" />
+        <activity
+            android:name=".GiftsLayout"
+            android:exported="false" />
+        <activity
+            android:name=".CraftsLayout"
+            android:exported="false" />
+        <activity
+            android:name=".FramesLayout"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ImageRecycler"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+
+            android:name=".FramesUpload"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
